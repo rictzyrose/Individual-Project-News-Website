@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Document</title>
+</head>
+<body>
+    <header class="header-container">
+        <div class="refocus-logo"><img src="headerLogo/REFOCUS.png"></div>
+        <div class="logo"><img src="headerLogo/LOGO.png"></div>
+        <div class="menu"><img src="headerLogo/Menu Burger.png"></div>
+        <div class="text">
+            <u id="blog">Blog</u>
+            <p>Our courses</p>
+            <p>Free webinars</p>
+            <p>Reviews</p>
+        </div>
+        <div class="sign-login-container">
+            <div class="sign-log">
+              <p style="color: #9D9DB5;">Sign up</p>
+            </div>
+            <div id="log-in">
+              <p style="color: #0266FF;">Log in</p>
+            </div> 
+        </div>
+    </header>
+    <section class="section-container">
+        <div class="cards" id="cards-1">
+            <img id="images" class="image" src="section-image/Image-1.png">
+            <div class="x-symbol" id="xbtn1">&#10005;</div>
+            <div id="check" class="check-symbol"><i class="fa-regular fa-circle-check fa-lg"></i></div>
+            <div class="text-position">
+              <h2 class="text-h2">Front-End vs Back-End<br>Developer: Whats's<br>the Difference?</h2>
+            </div>
+            <hr id="hr-line">
+            <div id="date-container">
+              <div class="date">
+                <p>January 3, 2023</p>
+              </div> 
+            </div>
+            <div id="heart-container" style="display: flex; column-gap: 5px; margin-top: 12px;">
+              <div class="heart">
+                <i onclick="heartColor()" class="fa-regular fa-heart fa-lg icon"><i id="iconhide" class="fa-sharp fa-solid fa-heart fa-lg"></i></i>
+              </div>
+              <div class="total-fav">
+                <p>4,8 k</p>
+              </div>
+            </div>
+        </div>
+        <div class="cards" id="cards-2">
+            <img class="image-2" src="section-image/Image-2.png">
+            <div class="x-symbol1 x-symbol" id="xbtn2">&#10005;</div>
+            <div id="check1" class="check-symbol"><i class="fa-regular fa-circle-check fa-lg"></i></div>
+            <div class="text-position-1">
+              <h2 class="text-h2">What is a Full Stack<br>Developer?</h2>   
+            </div>
+            <hr id="hr-line">
+            <div id="date-container">
+              <div class="date">
+                <p>January 12, 2023</p>
+              </div>
+            </div>
+            <div id="heart-container" style="display: flex; column-gap: 5px; margin-top: 12px;">
+              <div class="heart">
+                <i onclick="heartColor1()" class="fa-regular fa-heart fa-lg icon1"><i id="iconhide1" class="fa-sharp fa-solid fa-heart fa-lg"></i></i>
+              </div>
+              <div class="total-fav">
+                <p>3,2 k</p>
+              </div>
+            </div>     
+        </div>
+        <div class="cards" id="cards-3">
+            <img class="image-3" src="section-image/Image-3.png">
+            <div class="x-symbol" id="xbtn3">&#10005;</div>
+            <div id="check2" class="check-symbol"><i class="fa-regular fa-circle-check fa-lg"></i></div>
+            <div class="text-position-22">
+              <h2 class="text-h2">What are Soft Skills and How<br> Do They Benefit Your Career?</h2>  
+            </div>
+            <hr id="hr-line">
+            <div id="date-container">
+              <div class="date">
+                <p>January 22, 2023</p>
+              </div>
+            </div>
+            <div id="heart-container" style="display: flex; column-gap: 5px; margin-top: 12px;">
+              <div class="heart">
+                <i onclick="heartColor2()" class="fa-regular fa-heart fa-lg icon2"><i id="iconhide2" class="fa-sharp fa-solid fa-heart fa-lg"></i></i>
+              </div>
+              <div class="total-fav">
+                <p>2,6 k</p>
+              </div>
+            </div>
+        </div>
+        <div class="cards" id="cards-4">
+            <img class="image-4" src="section-image/Image-4.png">
+            <div class="x-symbol" id="xbtn4">&#10005;</div>
+            <div id="check3" class="check-symbol"><i class="fa-regular fa-circle-check fa-lg"></i></div>
+            <div class="text-position-3">
+              <h2 class="text-h2">IT Jobs: In-Demand, Available<br>to Everyone, Ripe With<br>Opportunity</h2>  
+            </div>
+            <hr id="hr-line">
+            <div id="date-container">
+              <div class="date">
+                <p>January 29, 2023</p>
+              </div>
+            </div>
+            <div id="heart-container" style="display: flex; column-gap: 5px; margin-top: 12px;">
+              <div class="heart">
+                <i onclick="heartColor3()" class="fa-regular fa-heart fa-lg icon3"><i id="iconhide3" class="fa-sharp fa-solid fa-heart fa-lg"></i></i>
+              </div>
+              <div class="total-fav">
+                <p>7,6 k</p>
+              </div>
+            </div>
+        </div>
+        <div class="cards" id="cards-5">
+            <img class="image-5" src="section-image/image-5.png">
+            <div class="x-symbol" id="xbtn5">&#10005;</div>
+            <div id="check4" class="check-symbol"><i class="fa-regular fa-circle-check fa-lg"></i></div>
+            <div class="text-position-4">
+              <h2 class="text-h2">7 Learning Tips for Data <br> Science Self-Study</h2> 
+            </div>
+            <hr id="hr-line">
+            <div id="date-container">
+              <div class="date">
+                <p>February 1, 2023</p>
+              </div>
+            </div>
+            <div id="heart-container" style="display: flex; column-gap: 5px; margin-top: 12px;">
+              <div class="heart">
+                <i onclick="heartColor4()" class="fa-regular fa-heart fa-lg icon4"><i id="iconhide4" class="fa-sharp fa-solid fa-heart fa-lg"></i></i>
+              </div>
+              <div class="total-fav">
+                <p>1,5 k</p>
+              </div>
+            </div>
+        </div>
+        <div class="cards" id="cards-6">
+            <img class="image-6" src="section-image/image-6.png">
+            <div class="x-symbol" id="xbtn6">&#10005;</div>
+            <div id="check5" class="check-symbol"><i class="fa-regular fa-circle-check fa-lg"></i></div>
+            <div class="text-position-5">
+              <h2 class="text-h2">Hard Skills vs. Soft Skills:<br>Do You Really Need Both?<br>Why?</h2>
+            </div>
+            <hr id="hr-line">
+            <div id="date-container">
+              <div class="date">
+                <p>February 10, 2023</p>
+              </div>
+            </div>
+            <div id="heart-container" style="display: flex; column-gap: 5px; margin-top: 12px;">
+              <div class="heart">
+                <i onclick="heartColor5()" class="fa-regular fa-heart fa-lg icon5"><i id="iconhide5" class="fa-sharp fa-solid fa-heart fa-lg"></i></i>
+              </div>
+              <div class="total-fav">
+                <p>4,9 k</p>
+              </div>
+            </div>
+        </div>
+        <div class="cards" id="cards-7">
+            <img class="image-7" src="section-image/Image-7.png">
+            <div class="x-symbol" id="xbtn7">&#10005;</div>
+            <div id="check6" class="check-symbol"><i class="fa-regular fa-circle-check fa-lg"></i></div>
+            <div class="text-position-6">
+              <h2 class="text-h2">What is JavaScript?</h2>  
+            </div>
+            <hr id="hr-line">
+            <div id="date-container">
+              <div class="date">
+                <p>February 16, 2023</p>
+              </div>
+            </div>
+            <div id="heart-container" style="display: flex; column-gap: 5px; margin-top: 12px;">
+              <div class="heart">
+                <i onclick="heartColor6()" class="fa-regular fa-heart fa-lg icon6"><i id="iconhide6" class="fa-sharp fa-solid fa-heart fa-lg"></i></i>
+              </div>
+              <div class="total-fav">
+                <p>3,1 k</p>
+              </div>
+            </div>
+        </div>
+        <div class="cards" id="cards-8">
+            <img class="image-8" src="section-image/Image-8.png">
+            <div class="x-symbol" id="xbtn8">&#10005;</div>
+            <div id="check7" class="check-symbol"><i class="fa-regular fa-circle-check fa-lg"></i></div>
+            <div class="text-position-7">
+              <h2 class="text-h2">Who is a Bussiness Analyst:<br>Roles, Skills, Salaries, Job<br>Prospects</h2>
+            </div> 
+            <hr id="hr-line">
+            <div id="date-container">
+              <div class="date">
+                <p>February 22, 2023</p>
+              </div>
+            </div>
+            <div id="heart-container" style="display: flex; column-gap: 5px; margin-top: 12px;">
+              <div class="heart">
+                <i onclick="heartColor7()" class="fa-regular fa-heart fa-lg icon7"><i id="iconhide7" class="fa-sharp fa-solid fa-heart fa-lg"></i></i>
+              </div>
+              <div class="total-fav">
+                <p>2,4 k</p>
+              </div>
+            </div>
+        </div>
+        <div class="cards" id="cards-9">
+            <img class="image-9" src="section-image/Image-9.png">
+            <div class="x-symbol" id="xbtn9">&#10005;</div>
+            <div id="check8" class="check-symbol"><i class="fa-regular fa-circle-check fa-lg"></i></div>
+            <div class="text-position-8">
+              <h2 class="text-h2">How Much Do Data Analysts<br> Make? 2023 Salary Guide</h2>  
+            </div>
+            <hr id="hr-line">
+            <div id="date-container">
+              <div class="date">
+                <p>February 24, 2023</p>
+              </div>
+            </div>
+            <div id="heart-container" style="display: flex; column-gap: 5px; margin-top: 12px;">
+              <div class="heart">
+                <i onclick="heartColor8()" class="fa-regular fa-heart fa-lg icon8"><i id="iconhide8" class="fa-sharp fa-solid fa-heart fa-lg"></i></i>
+              </div>
+              <div class="total-fav">
+                <p >2,6 k</p>
+              </div>
+            </div>
+        </div> 
+    </section>
+    <footer class="footer-container" id="footer">
+        <div style="color: #ffffff;" class="blog-text">
+            <h2 class="blog-class">Blog</h2>
+            <div class="blog-content">
+                <p class="flex-text1">Data Analyst</p>
+                <p class="flex-text2">Web Developer</p>
+                <p class="flex-text3">Career</p>
+                <p class="flex-text4">Success Stories</p>
+                <p class="flex-text5">Resume</p>
+                <p class="flex-text6">Hard Skills</p>
+                <p class="flex-text7">Soft Skills</p>
+            </div>
+            <div style="color: #ffffff;" class="our-courses-text">
+              <h2>OUR COURSES</h2>
+            </div>
+            <div class="our-courses-content">
+              <p>Data Analytics</p>
+              <p>Web Development</p>
+            </div>
+        </div>
+        <div style="color: #ffffff;" class="follow-text">
+            <p>Follow Us</p>
+            <div class="follow-content">
+                <div><img src="footer-icon/icon_in.png"></div>
+                <div><img src="footer-icon/icon_insta.png"></div>
+                <div><img src="footer-icon/icon_fb.png"></div>
+                <div><img src="footer-icon/icon_twitter.png"></div>
+                <div><img src="footer-icon/icon_whatsup.png"></div>
+                <div><img src="footer-icon/icon_tiktok.png"></div>
+                <div><img src="footer-icon/icon_youtube.png"></div>              
+            </div>
+            <div class="privacy-icon">
+                <img id="foot" src="footer-icon/Refocus Limited 2022.png">
+                <img class="icon-privacy" src="footer-icon/Privacy.png">
+                <img src="footer-icon/·.png">
+                <img src="footer-icon/Terms of Use.png">               
+            </div>           
+        </div>
+    </footer> 
+</body>
+<script src="index.js"></script>
+</html>
